@@ -24,7 +24,7 @@ const orderSchema = new mongoose.Schema(
     orderItems: {
       type: [orderItemSchema],
       type: [],
-    },
+    },   
     address:{
         type: String,
         required: true
