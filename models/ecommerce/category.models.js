@@ -7,9 +7,11 @@ const categorySchema = new mongoose.Schema(
       required: true,
       unique: true,
       trim: true,
+      lowercase: true,
     },
     description: {
       type: String,
+      trim: true,
     },
   },
   { timestamps: true }
