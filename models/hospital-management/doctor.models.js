@@ -2,4 +2,4 @@ import mongoose from "mongoose";
 
 const doctorSchema = new mongoose.Schema({}, { timestamps: true });
 
-export const medicalRecord = mongoose.model("Doctor",doctorSchema);
+export const Doctor = mongoose.model("Doctor",doctorSchema);
